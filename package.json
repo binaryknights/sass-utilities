@@ -1,0 +1,36 @@
+{
+  "name": "@binaryknights/sass-utilities",
+  "version": "0.0.1",
+  "description": "Sass utilities",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binaryknights/sass-utilities"
+  },
+  "bugs": {
+    "url": "https://github.com/binaryknights/sass-utilities/issues"
+  },
+  "homepage": "https://github.com/binaryknights/sass-utilities",
+  "author": "",
+  "keywords": [
+    "sass",
+    "css",
+    "utilities"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "lint": "stylelint --syntax scss \"scss/**/*.scss\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.26.5",
+    "stylelint": "^13.3.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.16.0"
+  }
+}
